@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorYellow"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.w2d4_homework.LeftFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/fl_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment Left" />
+
+    <Button
+        android:id="@+id/fl_nestBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="left BUTTON"
+        android:gravity="center"/>
+
+</LinearLayout>
