@@ -24,4 +24,13 @@
         android:text="Nested Fragments"
         android:background="@color/colorRed"
         android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/m_imgAsyncTsk"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:onClick="imagAsync"
+        android:text="Download Image with AsyncTask"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"/>
 </LinearLayout>
